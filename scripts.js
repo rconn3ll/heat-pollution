@@ -6,7 +6,6 @@ images.forEach( img => {
     new Image().src = img;
 });
 
-
 window.addEventListener('load', () => {
     document.addEventListener('click', () => {
         next_img();
