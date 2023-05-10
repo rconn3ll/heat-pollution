@@ -1,5 +1,12 @@
 body {
     margin: 0;
+    font-size: 36px;
+    font-size: 22px; 
+    font-style: normal; 
+    font-weight: 700; 
+    line-height: 30px; 
+    font-family: bjpg; 
+    background-color: rgb(34, 34, 34);
 }
 
 container {
@@ -14,10 +21,15 @@ container {
 }
 
 .header, .footer{
-    height: 100px;
-    background-color: lightgray;
+    height: 65px;
+    #background-color: lightgray;
     text-align: center;
-    font-size: 36px;
+    line-height: 65px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
 }
 
 .img-container {
@@ -42,4 +54,3 @@ container {
     -webkit-user-select: none; /*Safari*/
     -moz-user-select: none; /*Firefox*/
 }
-
