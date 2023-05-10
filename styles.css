@@ -24,6 +24,9 @@ container {
     flex-grow: 1;
     width: 100%;
     position: relative;
+    user-select: none;
+    -webkit-user-select: none; /*Safari*/
+    -moz-user-select: none; /*Firefox*/
 }
 
 .img-container img{
@@ -35,5 +38,8 @@ container {
     bottom: 0;
     left: 0;
     right: 0;
+    user-select: none;
+    -webkit-user-select: none; /*Safari*/
+    -moz-user-select: none; /*Firefox*/
 }
 
