@@ -20,8 +20,8 @@ function next_img(){
     document.getElementById('img').src = images[index];
 }
 
-function preload_img(img){
+function preload_img(img_path){
     console.log(img);
     let img = new Image();
-    img.src = img;
+    img.src = img_path;
 }
