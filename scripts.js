@@ -20,7 +20,7 @@ function next_img(){
 }
 
 function preload_img(img_path){
-    console.log(img);
+    console.log(img_path);
     let img = new Image();
     img.src = img_path;
 }
