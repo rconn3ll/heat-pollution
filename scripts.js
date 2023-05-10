@@ -1,11 +1,6 @@
 const images = ['images/Heat_Pollution_p1.png','images/Heat_Pollution_p2.png','images/Heat_Pollution_p3.png','images/Heat_Pollution_p4.png'];
 let index = 0;
 
-images.forEach( img => {
-    console.log(img);
-    new Image().src = img;
-});
-
 window.addEventListener('load', () => {
     document.addEventListener('click', () => {
         next_img();
@@ -14,7 +9,11 @@ window.addEventListener('load', () => {
         if (event.code === 'Space') {
             next_img();
         }
-    })
+    });
+    images.forEach( img => {
+        console.log(img);
+        new Image().src = img;
+    });    
 });
 
 function next_img(){
